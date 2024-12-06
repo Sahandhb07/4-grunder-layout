@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana sans-serif; 
+    background-color: aqua;
+}
+
+article, footer{
+    background-color: lightskyblue;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px
+}
+
+article{
+    padding: 0 10px ;
+}
+
+a{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover{
+    text-decoration:underline ;
+}
